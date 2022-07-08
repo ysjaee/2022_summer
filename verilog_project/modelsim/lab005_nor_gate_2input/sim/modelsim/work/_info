@@ -9,47 +9,69 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/lecture/2022_Summer/verilog_project/modelsim/lab00_not_gate/sim/modelsim
-vnot_gate
-Z1 !s110 1657170502
+vnor_gate
+Z1 !s110 1657253683
 !i10b 1
-!s100 `<:QLb7gOdK@W^XEb@BL42
+!s100 V7JYcV9]mfecl3B3Go[:f2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ITI5gU4L8nDTD4g56DBE]<3
+IER<PLZ6od8<@ceh?PQU2V0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-R0
-Z4 w1657091604
-8../../src/rtl/not_gate.v
-F../../src/rtl/not_gate.v
-!i122 3
-L0 3 11
+Z4 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab005_nor_gate_2input/sim/modelsim
+w1657253616
+8../../src/rtl/nor_gate.v
+F../../src/rtl/nor_gate.v
+!i122 4
+L0 1 7
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1657170502.000000
-!s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
+Z6 !s108 1657253683.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/nor_gate.v|
 Z7 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z8 tCvgOpt 0
+vnot_gate
+!s110 1657170502
+!i10b 1
+!s100 `<:QLb7gOdK@W^XEb@BL42
+R2
+ITI5gU4L8nDTD4g56DBE]<3
+R3
+R0
+w1657091604
+8../../src/rtl/not_gate.v
+F../../src/rtl/not_gate.v
+!i122 3
+L0 3 11
+R5
+r1
+!s85 0
+31
+!s108 1657170502.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
+R7
+!i113 1
+R8
 vtestbench
 R1
 !i10b 1
-!s100 VD?=?P2M6Omz;VzJT<j=60
+!s100 S6gCnHO0XO3eS6^Y756nY3
 R2
-IK8:4ZL?c[hgY33b09]QZT2
+I7cF[1N>L0CeO@B3QZT;QS0
 R3
-R0
 R4
+w1657253615
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 3
-L0 3 30
+!i122 4
+L0 1 15
 R5
 r1
 !s85 0
 31
 R6
-Z9 !s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/nor_gate.v|
 R7
 !i113 1
 R8

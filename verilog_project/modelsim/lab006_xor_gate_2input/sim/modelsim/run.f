@@ -1,2 +1,2 @@
-../../src/rtl/not_gate.v
+../../src/rtl/xor_gate.v
 ../../testbench/testbench.v
