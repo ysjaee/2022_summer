@@ -1,2 +1,2 @@
-../../src/rtl/not_gate.v
+../../src/rtl/nand_gate.v
 ../../testbench/testbench.v
