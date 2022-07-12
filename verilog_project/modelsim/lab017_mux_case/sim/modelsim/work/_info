@@ -32,6 +32,28 @@ Z8 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z9 tCvgOpt 0
 n@d_@f@f
+vmux_case
+Z10 !s110 1657603051
+!i10b 1
+!s100 cPORKg8YbJBI=f^`?znCQ1
+R2
+I1[mg>DI7heSdfBH[P[FWK1
+R3
+Z11 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab017_mux_case/sim/modelsim
+w1657603013
+8../../src/rtl/mux_case.v
+F../../src/rtl/mux_case.v
+!i122 17
+Z12 L0 1 18
+R5
+r1
+!s85 0
+31
+Z13 !s108 1657603051.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/mux_case.v|
+R8
+!i113 1
+R9
 vnot_gate
 !s110 1657170502
 !i10b 1
@@ -51,28 +73,6 @@ r1
 31
 !s108 1657170502.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
-R8
-!i113 1
-R9
-vparity
-Z10 !s110 1657592025
-!i10b 1
-!s100 cXB?BJB3P4Z7;[<o=l=0W1
-R2
-I^ZX4B3J>L?gZHf:Lc<8WS3
-R3
-Z11 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab014_parity/sim/modelsim
-w1657592009
-8../../src/rtl/parity.v
-F../../src/rtl/parity.v
-!i122 19
-L0 1 35
-R5
-r1
-!s85 0
-31
-Z12 !s108 1657592025.000000
-!s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
 R8
 !i113 1
 R9
@@ -110,7 +110,7 @@ w1657521211
 8../../src/rtl/T_FF.v
 F../../src/rtl/T_FF.v
 !i122 16
-Z13 L0 1 8
+Z14 L0 1 8
 R5
 r1
 !s85 0
@@ -124,22 +124,22 @@ n@t_@f@f
 vtestbench
 R10
 !i10b 1
-!s100 nV_I=eFXbDOJQ9e:E=FjD1
+!s100 SA<U_N:aC<YPO0ohMQ9`f3
 R2
-IkZjXeSEQa5gH73c_@;22f3
+IQ^U[Lca>C85`=`_k]AlPU0
 R3
 R11
-w1657592012
+w1657603011
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 19
-L0 1 19
+!i122 17
+R12
 R5
 r1
 !s85 0
 31
-R12
-Z14 !s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
+R13
+Z15 !s107 ../../testbench/testbench.v|../../src/rtl/mux_case.v|
 R8
 !i113 1
 R9
@@ -155,7 +155,7 @@ w1657269488
 8../../src/rtl/xnor_gate_3input.v
 F../../src/rtl/xnor_gate_3input.v
 !i122 7
-R13
+R14
 R5
 r1
 !s85 0

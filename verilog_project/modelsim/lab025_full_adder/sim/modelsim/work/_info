@@ -32,6 +32,50 @@ Z8 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z9 tCvgOpt 0
 n@d_@f@f
+vfull_adder
+Z10 !s110 1657607723
+!i10b 1
+!s100 ;Rb`:aXQlnhK<`4ak^CSn3
+R2
+IG5NeYU71:PL5nFe65EKN40
+R3
+Z11 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab025_full_adder/sim/modelsim
+Z12 w1657607502
+8../../src/rtl/full_adder.v
+F../../src/rtl/full_adder.v
+!i122 17
+L0 1 14
+R5
+r1
+!s85 0
+31
+Z13 !s108 1657607723.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/half_adder.v|../../src/rtl/full_adder.v|
+R8
+!i113 1
+R9
+vhalf_adder
+R10
+!i10b 1
+!s100 54eE]Ddd4?HFcz?zn@P640
+R2
+IS:J3?N^5;gkEHo:CTo6fj0
+R3
+R11
+R12
+8../../src/rtl/half_adder.v
+F../../src/rtl/half_adder.v
+!i122 17
+L0 1 9
+R5
+r1
+!s85 0
+31
+R13
+Z14 !s107 ../../testbench/testbench.v|../../src/rtl/half_adder.v|../../src/rtl/full_adder.v|
+R8
+!i113 1
+R9
 vnot_gate
 !s110 1657170502
 !i10b 1
@@ -51,28 +95,6 @@ r1
 31
 !s108 1657170502.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
-R8
-!i113 1
-R9
-vparity
-Z10 !s110 1657592025
-!i10b 1
-!s100 cXB?BJB3P4Z7;[<o=l=0W1
-R2
-I^ZX4B3J>L?gZHf:Lc<8WS3
-R3
-Z11 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab014_parity/sim/modelsim
-w1657592009
-8../../src/rtl/parity.v
-F../../src/rtl/parity.v
-!i122 19
-L0 1 35
-R5
-r1
-!s85 0
-31
-Z12 !s108 1657592025.000000
-!s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
 R8
 !i113 1
 R9
@@ -110,7 +132,7 @@ w1657521211
 8../../src/rtl/T_FF.v
 F../../src/rtl/T_FF.v
 !i122 16
-Z13 L0 1 8
+Z15 L0 1 8
 R5
 r1
 !s85 0
@@ -124,22 +146,22 @@ n@t_@f@f
 vtestbench
 R10
 !i10b 1
-!s100 nV_I=eFXbDOJQ9e:E=FjD1
+!s100 6fg1;OjV2YbGX8Dg6zObK3
 R2
-IkZjXeSEQa5gH73c_@;22f3
+I6@L^[>NoKloFa<PnQ^gII3
 R3
 R11
-w1657592012
+w1657607678
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 19
-L0 1 19
+!i122 17
+L0 1 27
 R5
 r1
 !s85 0
 31
-R12
-Z14 !s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
+R13
+R14
 R8
 !i113 1
 R9
@@ -155,7 +177,7 @@ w1657269488
 8../../src/rtl/xnor_gate_3input.v
 F../../src/rtl/xnor_gate_3input.v
 !i122 7
-R13
+R15
 R5
 r1
 !s85 0
