@@ -1,10 +1,13 @@
 module testbench();
     reg clk;
     reg rst_n;
-    reg t;
+    reg j;
+    reg k;
     wire q;
+
     
-    t_ff tf(q,t,clk,rst_n);
+    jk_ff jkf(j,k,clk,rst_n,q,qbar);
+
 
     always #5 clk = ~clk;
 
@@ -14,10 +17,10 @@ module testbench();
     end
 
     initial begin
-        t =1'b0;
-        #20 t=1'b1;
-        #20 t=1'b0;
-        #20 t=1'b1;
+        j = 1'b0; k = 1'b0;
+        #20 j = 1'b1; k = 1'b0;
+        #20 j = 1'b0; k = 1'b1;
+        #20 j = 1'b1; k = 1'b1;
         #40 $stop;
     end
 endmodule
