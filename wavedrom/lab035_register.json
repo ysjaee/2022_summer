@@ -1,0 +1,9 @@
+{ signal: [
+  { name: "X4X3X2X1",  wave: "==.=....", data: ["", "0101", "1100"] },
+  { name: "ld", wave: 'l.h.....' },
+  { name: "Q4Q3Q2Q1",  wave: "=.=.....", data: ["", "0101"] },
+  { name: "Rd", wave: 'l....h..'},
+  { name: "Y4Y3YY2Y1",  wave: "=....=..", data: ["0000", "0101"] },
+  {},
+
+]}

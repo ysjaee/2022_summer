@@ -10,24 +10,24 @@ z2
 cModel Technology
 Z0 dC:/lecture/2022_Summer/verilog_project/modelsim/lab00_not_gate/sim/modelsim
 vD_FF
-Z1 !s110 1657522245
+Z1 !s110 1658905164
 !i10b 1
-!s100 ?F__`:8AG@Ocm6?FYC1Q>1
+!s100 amIml0hV6m;99C;=KVS>j1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IdQ0zFYV4U4hz]J@aJ`bV]1
+IMK2dkA`X@H90fg]Ieg;F51
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab014_/sim/modelsim
-w1657521551
+Z4 dC:/lecture/2022_Summer/verilog_project/modelsim/lab036_register/sim/modelsim
+w1658904380
 8../../src/rtl/D_FF.v
 F../../src/rtl/D_FF.v
-!i122 16
-L0 1 12
+!i122 52
+L0 1 11
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1657522244.000000
-!s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
+Z6 !s108 1658905164.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/register.v|../../src/rtl/D_FF.v|
 Z7 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z8 tCvgOpt 0
@@ -54,14 +54,36 @@ r1
 R7
 !i113 1
 R8
-vripple_carry_counter
+vregister
 R1
+!i10b 1
+!s100 F3@[;56P1G81DTQdb6CG41
+R2
+Id8gJB4@5M8=U[][82SaZ^1
+R3
+R4
+w1658905160
+8../../src/rtl/register.v
+F../../src/rtl/register.v
+!i122 52
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|../../src/rtl/D_FF.v|
+R7
+!i113 1
+R8
+vripple_carry_counter
+Z10 !s110 1657522245
 !i10b 1
 !s100 GYoEnOJ3CV?4ZbSG9J=kb1
 R2
 IZLIPdT[3ThUU_>[HQ4f[c0
 R3
-R4
+Z11 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab014_/sim/modelsim
 w1657522238
 8../../src/rtl/ripple_carry_counter.v
 F../../src/rtl/ripple_carry_counter.v
@@ -71,30 +93,30 @@ R5
 r1
 !s85 0
 31
-R6
-Z9 !s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
+Z12 !s108 1657522244.000000
+Z13 !s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
 R7
 !i113 1
 R8
 vT_FF
-R1
+R10
 !i10b 1
 !s100 b581T_RD2OzRB5P?mDzY82
 R2
 IRG;FHh;<3CK<X9IgnIGA80
 R3
-R4
+R11
 w1657521211
 8../../src/rtl/T_FF.v
 F../../src/rtl/T_FF.v
 !i122 16
-Z10 L0 1 8
+Z14 L0 1 8
 R5
 r1
 !s85 0
 31
-R6
-R9
+R12
+R13
 R7
 !i113 1
 R8
@@ -102,16 +124,16 @@ n@t_@f@f
 vtestbench
 R1
 !i10b 1
-!s100 Y3bmC40e`:Oj=ik]nNHV]3
+!s100 LLcZPL=T?Xbm83dEY:6EA1
 R2
-IgzF9hd1NcVC_Mge<D6YFM1
+IPlG9U68Go:O8N4l71L;293
 R3
 R4
-w1657521756
+w1658905051
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 16
-L0 1 23
+!i122 52
+L0 1 17
 R5
 r1
 !s85 0
@@ -133,7 +155,7 @@ w1657269488
 8../../src/rtl/xnor_gate_3input.v
 F../../src/rtl/xnor_gate_3input.v
 !i122 7
-R10
+R14
 R5
 r1
 !s85 0

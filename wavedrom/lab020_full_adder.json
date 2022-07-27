@@ -1,0 +1,8 @@
+{ signal: [
+  { name: "input_A",  wave: "l...h..." },
+  { name: "input_B",  wave: "l.h.l.h." },
+  { name: "input_CI",  wave: "lhlhlhlh" },
+  {},
+  { name: "output_C0",  wave: "l..hlh.."},
+  { name: "output_S",  wave: "lh.lhl.h"},
+]}

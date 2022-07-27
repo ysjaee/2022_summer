@@ -1,0 +1,9 @@
+{ signal: [
+  { name: "input_a", wave: 'l...h...' },
+  { name: "input_b", wave: 'l.h.l...' },
+  { name: "input_c", wave: 'lhlhlhlh' },
+  {},
+
+  { name: 'P_odd', wave: 'hl.hlh.l' },
+  { name: 'P_even', wave: 'lh.lhl.h' },
+]}

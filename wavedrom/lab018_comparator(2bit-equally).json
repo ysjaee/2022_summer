@@ -1,0 +1,11 @@
+{ signal: [
+  { name: "input_A1",  wave: "l.......h......." },
+  { name: "input_A0",  wave: "l...h...l...h..." },
+  { name: "input_B1",  wave: "l.h.l.h.l.h.l.h." },
+  { name: "input_B0",  wave: "lhlhlhlhlhlhlhlh" },
+  
+  {},
+  {},
+  { name: "output_X",  wave: "hl...hl...hl...h"},
+
+]}

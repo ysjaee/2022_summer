@@ -1,0 +1,21 @@
+{ signal: [
+  { name: "CLK", wave: 'lP.......' },
+  { name: "RST", wave: 'lh.......' },
+  { name: "X", wave: 'l........' },
+,
+  {},
+    { name: "C", wave: 'l....h...' },
+  { name: "B", wave: 'l..h.l.h.' },
+  { name: "A", wave: 'l.hlhlhlh' },
+,
+  {},
+  { name: "T_C", wave: 'lhl..hl..' },
+  { name: "T_B", wave: 'lhlhlhlhl' },
+  { name: "T_A", wave: 'lh.......' },
+ ,
+  {},
+
+  { name: "OUT_C", wave: 'lhl...h..' },
+  { name: "OUT_B", wave: 'lhl.h.l.h' },
+  { name: "OUT_A", wave: 'lhlhlhlhl' },
+]}
