@@ -10,7 +10,7 @@ module shift_register(d,q,sl,sr,clk,rst_n);
 
   always @ (*)
   if (sr == 1'b0 & sl == 1'b1) begin
-    dff_in[0] = q[3];
+    dff_in[0] = 1'b0;
     dff_in[1] = q[0];
     dff_in[2] = q[1];
     dff_in[3] = q[2];
@@ -19,7 +19,7 @@ module shift_register(d,q,sl,sr,clk,rst_n);
     dff_in[0] = q[1];
     dff_in[1] = q[2];
     dff_in[2] = q[3];
-    dff_in[3] = q[0];
+    dff_in[3] = 1'b0;
   end
   else
     dff_in = q;

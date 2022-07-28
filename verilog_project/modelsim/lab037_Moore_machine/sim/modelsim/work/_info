@@ -27,11 +27,34 @@ r1
 !s85 0
 31
 Z6 !s108 1657522244.000000
-!s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
-Z7 !s90 -reportprogress|300|-f|run.f|
+Z7 !s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
+Z8 !s90 -reportprogress|300|-f|run.f|
 !i113 1
-Z8 tCvgOpt 0
+Z9 tCvgOpt 0
 n@d_@f@f
+vMoore_machine
+Z10 !s110 1658975280
+!i10b 1
+!s100 o31DgO6O2a?LMm`aL7akh1
+R2
+I[>LcJo^9odO=?iaGV];PB2
+R3
+Z11 dC:/lecture/2022_Summer/verilog_project/modelsim/lab037_Moore_machine/sim/modelsim
+w1658975272
+Z12 8../../src/rtl/Moore_machine.v
+Z13 F../../src/rtl/Moore_machine.v
+!i122 30
+L0 1 42
+R5
+r1
+!s85 0
+31
+Z14 !s108 1658975280.000000
+Z15 !s107 ../../testbench/testbench.v|../../src/rtl/Moore_machine.v|
+R8
+!i113 1
+R9
+n@moore_machine
 vnot_gate
 !s110 1657170502
 !i10b 1
@@ -51,9 +74,9 @@ r1
 31
 !s108 1657170502.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
-R7
-!i113 1
 R8
+!i113 1
+R9
 vripple_carry_counter
 R1
 !i10b 1
@@ -72,10 +95,10 @@ r1
 !s85 0
 31
 R6
-Z9 !s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
 R7
-!i113 1
 R8
+!i113 1
+R9
 vT_FF
 R1
 !i10b 1
@@ -88,39 +111,61 @@ w1657521211
 8../../src/rtl/T_FF.v
 F../../src/rtl/T_FF.v
 !i122 16
-Z10 L0 1 8
+Z16 L0 1 8
 R5
 r1
 !s85 0
 31
 R6
-R9
 R7
-!i113 1
 R8
+!i113 1
+R9
 n@t_@f@f
-vtestbench
-R1
+vtest
+!s110 1658908679
 !i10b 1
-!s100 Y3bmC40e`:Oj=ik]nNHV]3
+!s100 S@_b`c7;]_=k7P`J2?dZY3
 R2
-IgzF9hd1NcVC_Mge<D6YFM1
+IVAoc2RfF7]9[[KfLW70z62
 R3
-R4
-w1657521756
+R11
+w1658908676
+R12
+R13
+!i122 22
+L0 1 32
+R5
+r1
+!s85 0
+31
+!s108 1658908679.000000
+R15
+R8
+!i113 1
+R9
+vtestbench
+R10
+!i10b 1
+!s100 ZnOi5gS:Z`:QC39C0GMol3
+R2
+IWP]TL[e2?fF_>`[;Kg>e<3
+R3
+R11
+w1658974885
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 16
-L0 1 23
+!i122 30
+L0 1 19
 R5
 r1
 !s85 0
 31
-R6
-R9
-R7
-!i113 1
+R14
+R15
 R8
+!i113 1
+R9
 vxnor_gate_3input
 !s110 1657269521
 !i10b 1
@@ -133,13 +178,13 @@ w1657269488
 8../../src/rtl/xnor_gate_3input.v
 F../../src/rtl/xnor_gate_3input.v
 !i122 7
-R10
+R16
 R5
 r1
 !s85 0
 31
 !s108 1657269521.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/xnor_gate_3input.v|
-R7
-!i113 1
 R8
+!i113 1
+R9
