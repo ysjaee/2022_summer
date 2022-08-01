@@ -11,4 +11,4 @@ always @ (Rd)
         y <= q;
     else
         y <= 4'b0000;
-endmodule       
+endmodule  
