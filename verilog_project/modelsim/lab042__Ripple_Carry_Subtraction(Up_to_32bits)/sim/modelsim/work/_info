@@ -1,0 +1,258 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/lecture/2022_Summer/verilog_project/modelsim/lab00_not_gate/sim/modelsim
+vD_FF
+Z1 !s110 1657522245
+!i10b 1
+!s100 ?F__`:8AG@Ocm6?FYC1Q>1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdQ0zFYV4U4hz]J@aJ`bV]1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab014_/sim/modelsim
+w1657521551
+8../../src/rtl/D_FF.v
+F../../src/rtl/D_FF.v
+!i122 16
+L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657522244.000000
+Z7 !s107 ../../testbench/testbench.v|../../src/rtl/D_FF.v|../../src/rtl/T_FF.v|../../src/rtl/ripple_carry_counter.v|
+Z8 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z9 tCvgOpt 0
+n@d_@f@f
+vfull_adder
+Z10 !s110 1659597453
+!i10b 1
+!s100 OM;@FNLHP4ldc1]S`=Ioo0
+R2
+IENZTEljKT]k4XcB9nL0783
+R3
+Z11 dC:/lecture/2022_Summer/verilog_project/modelsim/lab042__Ripple_Carry_Subtraction(Up_to_32bits)/sim/modelsim
+w1659502179
+8../../src/rtl/full_adder.v
+F../../src/rtl/full_adder.v
+!i122 21
+Z12 L0 1 14
+R5
+r1
+!s85 0
+31
+Z13 !s108 1659597453.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/Ripple_carry_subtractor_4bit.v|../../src/rtl/Ripple_carry_subtractor_32bit.v|../../src/rtl/Ripple_carry_subtractor_16bit.v|../../src/rtl/half_adder.v|../../src/rtl/full_adder.v|
+R8
+!i113 1
+R9
+vhalf_adder
+R10
+!i10b 1
+!s100 7218@>D9z5;YCzSLl<ehD1
+R2
+Icckl2K7]eMXB]YNG50JYo1
+R3
+R11
+w1659318517
+8../../src/rtl/half_adder.v
+F../../src/rtl/half_adder.v
+!i122 21
+L0 1 9
+R5
+r1
+!s85 0
+31
+R13
+Z14 !s107 ../../testbench/testbench.v|../../src/rtl/Ripple_carry_subtractor_4bit.v|../../src/rtl/Ripple_carry_subtractor_32bit.v|../../src/rtl/Ripple_carry_subtractor_16bit.v|../../src/rtl/half_adder.v|../../src/rtl/full_adder.v|
+R8
+!i113 1
+R9
+vnot_gate
+!s110 1657170502
+!i10b 1
+!s100 `<:QLb7gOdK@W^XEb@BL42
+R2
+ITI5gU4L8nDTD4g56DBE]<3
+R3
+R0
+w1657091604
+8../../src/rtl/not_gate.v
+F../../src/rtl/not_gate.v
+!i122 3
+L0 3 11
+R5
+r1
+!s85 0
+31
+!s108 1657170502.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/not_gate.v|
+R8
+!i113 1
+R9
+vripple_carry_counter
+R1
+!i10b 1
+!s100 GYoEnOJ3CV?4ZbSG9J=kb1
+R2
+IZLIPdT[3ThUU_>[HQ4f[c0
+R3
+R4
+w1657522238
+8../../src/rtl/ripple_carry_counter.v
+F../../src/rtl/ripple_carry_counter.v
+!i122 16
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vRipple_carry_subtraction_16bit
+R10
+!i10b 1
+!s100 lSRd;VGV=L;JSLJDi`MH]1
+R2
+I6A1BWhnZe]<JnzTO3UdFM3
+R3
+R11
+w1659597335
+8../../src/rtl/Ripple_carry_subtractor_16bit.v
+F../../src/rtl/Ripple_carry_subtractor_16bit.v
+!i122 21
+L0 1 15
+R5
+r1
+!s85 0
+31
+R13
+R14
+R8
+!i113 1
+R9
+n@ripple_carry_subtraction_16bit
+vRipple_carry_subtraction_32bit
+Z15 !s110 1659597454
+!i10b 1
+!s100 l3?LEgUGRag3FI0zhal7;1
+R2
+IYXKZY:Bn3AoWk56fb4CRl3
+R3
+R11
+w1659597337
+8../../src/rtl/Ripple_carry_subtractor_32bit.v
+F../../src/rtl/Ripple_carry_subtractor_32bit.v
+!i122 21
+R12
+R5
+r1
+!s85 0
+31
+R13
+R14
+R8
+!i113 1
+R9
+n@ripple_carry_subtraction_32bit
+vRipple_carry_subtraction_4bit
+R15
+!i10b 1
+!s100 iKYC:@Gg=c[4PPQJIk_ia3
+R2
+I0D04oR42Lzd8BjYU_D5J32
+R3
+R11
+w1659597333
+8../../src/rtl/Ripple_carry_subtractor_4bit.v
+F../../src/rtl/Ripple_carry_subtractor_4bit.v
+!i122 21
+L0 1 16
+R5
+r1
+!s85 0
+31
+R13
+R14
+R8
+!i113 1
+R9
+n@ripple_carry_subtraction_4bit
+vT_FF
+R1
+!i10b 1
+!s100 b581T_RD2OzRB5P?mDzY82
+R2
+IRG;FHh;<3CK<X9IgnIGA80
+R3
+R4
+w1657521211
+8../../src/rtl/T_FF.v
+F../../src/rtl/T_FF.v
+!i122 16
+Z16 L0 1 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@t_@f@f
+vtestbench
+R15
+!i10b 1
+!s100 mZg3@bamR@1]]_<HW=2NT0
+R2
+I@dzOY0oOC>b0^>IDk^fkz2
+R3
+R11
+w1659597448
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 21
+L0 1 20
+R5
+r1
+!s85 0
+31
+R13
+R14
+R8
+!i113 1
+R9
+vxnor_gate_3input
+!s110 1657269521
+!i10b 1
+!s100 [H`Bl@Ul4F0eaP<6[mC?U1
+R2
+IMok7YVRRCL3fZZ4[JAmG73
+R3
+dC:/lecture/2022_Summer/2022_summer/verilog_project/modelsim/lab013_xnor_3input/sim/modelsim
+w1657269488
+8../../src/rtl/xnor_gate_3input.v
+F../../src/rtl/xnor_gate_3input.v
+!i122 7
+R16
+R5
+r1
+!s85 0
+31
+!s108 1657269521.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/xnor_gate_3input.v|
+R8
+!i113 1
+R9
