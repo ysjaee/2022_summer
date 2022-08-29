@@ -1,0 +1,13 @@
+{ signal: [
+  { name: "input_I0",  wave: "=.......", data: ["01"] },
+  { name: "input_I1",  wave: "=.......", data: ["23"] },
+  { name: "input_I2",  wave: "=.......", data: ["45"] },
+  { name: "input_I3",  wave: "=.......", data: ["67"] },
+  {},
+  { name: 's0', wave: 'l...h...' },
+  { name: 's1', wave: 'l.h.l.h.' },
+  {},
+
+  { name: "output_x",  wave: "=.=.=.=.", data: ["01","23","45","67"] },
+
+]}

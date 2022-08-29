@@ -1,0 +1,15 @@
+{ signal: [
+  { name: "input_a", wave: 'hl......' },
+  { name: "input_b", wave: 'lhl.....' },
+  { name: "input_c", wave: 'l.hl....' },
+  { name: "input_d", wave: 'l..hl...' },
+  { name: "input_e", wave: 'l...hl..' },
+  { name: "input_f", wave: 'l....hl.' },
+  { name: "input_g", wave: 'l.....hl' },
+  { name: "input_h", wave: 'l......h' },
+  {},
+
+  { name: 'output_a', wave: 'lhlhlhlh' },
+  { name: 'output_b', wave: 'l.h.l.h.' },
+  { name: 'output_c', wave: 'l...h...' },
+]}

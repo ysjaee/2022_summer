@@ -1,0 +1,8 @@
+{ signal: [
+  { name: "CLK", wave: 'lP.......' },
+  { name: "RST", wave: 'lnh......' },
+  { name: "D_in", wave: 'l.nh.plnh' },
+,
+  {},
+  { name: "OUT", wave: 'l..h..l.h' },
+]}
